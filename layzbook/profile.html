@@ -1,0 +1,324 @@
+<html>
+    <head>
+        <title>Profile Page-Layzbook</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav>
+            <div class="nav-left">
+                <a href="index.html">
+                <img src="images/logo 3.png" class="logo">
+                </a>
+                <ul>
+                <li><img src="images/notification.png"></li>
+                <li><img src="images/inbox.png"></li>
+                <li><img src="images/video.png"></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <div class="search-box">
+                    <img src="images/search.png">
+                    <input type="text" placeholder="search">
+                </div>
+                <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                    <img src="images/profile-pic.jpg">
+
+                </div>
+            </div>
+            <div class="settings-menu">
+                <div id="darkbtn">
+                    <span></span>
+                </div>
+                <div class="settings-menu-inner">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.jpg">
+                        <div>
+                            <p>Huz Aif</p>
+                            <a href="profile.html">see your profile</a>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="user-profile">
+                        <img src="images/feedback.png">
+                        <div>
+                            <p>Give Feedback</p>
+                            <a href="#">Help us to improve new design</a>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="settings-links">
+                        <img src="images/setting.png" class="settings-icon">
+                        <a href="#">Settings & Privacy <img src="images/arrow.png" width="10px"></a>
+                    </div>
+                    <div class="settings-links">
+                        <img src="images/help.png" class="settings-icon">
+                        <a href="#">Help & Support <img src="images/arrow.png" width="10px"></a>
+                    </div>
+                    <div class="settings-links">
+                        <img src="images/display.png" class="settings-icon">
+                        <a href="#">Display & Accessibility <img src="images/arrow.png" width="10px"></a>
+                    </div>
+                    <div class="settings-links">
+                        <img src="images/logout.png" class="settings-icon">
+                        <a href="#">Log Out <img src="images/arrow.png" width="10px"></a>
+                    </div>
+                </div>
+                
+            </div>
+        </nav>
+
+        <div class="profile-container">
+            <img src="images/cover.png" class="cover-img">
+            <div class="profile-details">
+                <div class="pd-left">
+                    <div class="pd-row">
+                        <img src="images/profile-pic.jpg" class="pd-image">
+                        <div>
+                            <h3>Huz Aif</h3>
+                            <p>120 Friends - 20 mutual</p>
+                            <img src="images/member-1.png">
+                            <img src="images/cr7.png">
+                            <img src="images/member-2.png">
+                            <img src="images/member-4.png">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="pd-right">
+                    <button type="button"><img src="images/add-friends.png"> Friend</button>
+                    <button type="button"><img src="images/message.png"> Message</button>
+                    <br>
+                    <a href=""><img src="images/more.png"></a>
+                </div>
+            </div>
+            <div class="profile-info">
+                <div class="info-col">
+                    <div class="profile-intro">
+                        <h3>Intro</h3>
+                        <p class="intro-text">Alhamdulillah</p>
+                        <hr>
+                        <ul>
+                            <li> <img src="images/profile-job.png"> Director at  SpaceX</li>
+                            <li> <img src="images/profile-study.png"> Studied at LPU</li>
+                            <li> <img src="images/profile-study.png"> Went to JK Sainik School Manasbal</li>
+                            <li> <img src="images/profile-home.png"> Lives in Germany</li>
+                        </ul>
+                    </div>
+                    <div class="profile-intro">
+                        <div class="title-box">
+                            <h3>Photos</h3>
+                            <a href="">All Photos</a>
+                        </div>
+                        
+                        <div class="photo-box">
+                            <div><img src="images/photo1.png"></div>
+                            <div><img src="images/photo2.png"></div>
+                            <div><img src="images/photo3.png"></div>
+                            <div><img src="images/photo4.png"></div>
+                            <div><img src="images/photo5.png"></div>
+                            <div><img src="images/photo6.png"></div>
+                        </div>
+                    </div>
+                    <div class="profile-intro">
+                        <div class="title-box">
+                            <h3>Friends</h3>
+                            <a href="">All Friends</a>
+                        </div>
+                        <p>4.9k (500 Mutual)</p>
+                        <div class="friends-box">
+                            <div><img src="images/member-3.png"><p>Emilia Clarke</p></div>
+                            <div><img src="images/member-2.png"><p>David Beckham</p></div>
+                            <div><img src="images/member-1.png"><p>Meela Charles</p></div>
+                            <div><img src="images/member-4.png"><p>Suhail</p></div>
+                            <div><img src="images/member-5.png"><p>Andrew Late</p></div>
+                            <div><img src="images/member-5.png"><p>Daniel Jackson</p></div>
+                            <div><img src="images/member-7.png"><p>Patrick Bateman</p></div>
+                            <div><img src="images/member-8.png"><p>Daily Bugle</p></div>
+                            <div><img src="images/member-9.png"><p>Jason Statham</p></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-col">
+                    <div class="write-post-container">
+                        <div class="user-profile">
+                            <img src="images/profile-pic.jpg">
+                            <div>
+                                <p>Huz Aif</p>
+                                <small>Public</small>
+                            </div>
+                        </div>
+                        <div class="post-input-container">
+                            <textarea rows="3" placeholder="What's on your mind, Huzaif"></textarea>
+                            <div class="add-post-links">
+                                <a href="#"><img src="images/live-video.png">Live Video</a>
+                                <a href="#"><img src="images/photo.png">Photo/Video</a>
+                                <a href="#"><img src="images/feeling.png">Feeling/Activity</a>
+                            </div>
+                            <div class="post-container">
+                                <div class="post-row">
+                                    <div class="user-profile">
+                                        <img src="images/profile-pic.jpg">
+                                        <div>
+                                            <p>Huz Aif</p>
+                                            <span>10 July 2022, 04:45pm</span>
+                                        </div>
+                                    </div>    
+                                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                                </div>
+                                <p class="post-text">فَإِنَّ مَعَ ٱلْعُسْرِ يُسْرًا</p>
+                                <p class="post-text">“So verily, with every hardship, there [will be] ease. [Quran 94:5]</p>
+                                <img src="images\quran.webp" class="post-image">
+                                <div class="post-row">
+                                    <div class="activity-icons">
+                                        <div><img src="images/like-blue.png">120m</div>
+                                        <div><img src="images/comments.png">50m</div>
+                                        <div><img src="images/share.png">20m</div>
+                                    </div>
+                                    <div class="post-profile-icon">
+                                        <img src="images/profile-pic.jpg">
+            
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="post-container">
+                                <div class="post-row">
+                                    <div class="user-profile">
+                                        <img src="images/profile-pic.jpg">
+                                        <div>
+                                            <p>Huz Aif</p>
+                                            <span>05 June 2022, 05:45pm</span>
+                                        </div>
+                                    </div>
+                                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                                </div>
+                               
+                                <p class="post-text">This social-networking-site was created by Engineer Huzaif Ahmad.</p>
+                                <img src="images\274ee4349f7ca14ab4eee6e13908b3c8.jpg" class="post-image">
+                                <div class="post-row">
+                                    <div class="activity-icons">
+                                        <div><img src="images/like-blue.png">10m</div>
+                                        <div><img src="images/comments.png">29m</div>
+                                        <div><img src="images/share.png">7m</div>
+                                    </div>
+                                    <div class="post-profile-icon">
+                                        <img src="images/profile-pic.jpg">
+            
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="post-container">
+                                <div class="post-row">
+                                    <div class="user-profile">
+                                        <img src="images/profile-pic.jpg">
+                                        <div>
+                                            <p>Huz Aif</p>
+                                            <span>10 December 2022, 10:15pm</span>
+                                        </div>
+                                    </div>
+                                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                                </div>
+                               
+                                <p class="post-text">Lovely Professional University.</p>
+                                <img src="images\1488259134phpShnPJa.jpeg" class="post-image">
+                                <div class="post-row">
+                                    <div class="activity-icons">
+                                        <div><img src="images/like-blue.png">4.3m</div>
+                                        <div><img src="images/comments.png">887k</div>
+                                        <div><img src="images/share.png">290k</div>
+                                    </div>
+                                    <div class="post-profile-icon">
+                                        <img src="images/profile-pic.jpg">
+            
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="post-container">
+                                <div class="post-row">
+                                    <div class="user-profile">
+                                        <img src="images/profile-pic.jpg">
+                                        <div>
+                                            <p>Huz Aif</p>
+                                            <span>10 July 2022, 04:45pm</span>
+                                        </div>
+                                    </div>
+                                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                                </div>
+                               
+                                <p class="post-text">Cristiano Ronaldo.</p>
+                                <img src="images\thumb-1920-476725.jpg" class="post-image">
+                                <div class="post-row">
+                                    <div class="activity-icons">
+                                        <div><img src="images/like-blue.png">5.4m</div>
+                                        <div><img src="images/comments.png">843k</div>
+                                        <div><img src="images/share.png">201k</div>
+                                    </div>
+                                    <div class="post-profile-icon">
+                                        <img src="images/profile-pic.jpg">
+            
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="post-container">
+                                <div class="post-row">
+                                    <div class="user-profile">
+                                        <img src="images/profile-pic.jpg">
+                                        <div>
+                                            <p>Huz Aif</p>
+                                            <span>05 June 2022, 05:45pm</span>
+                                        </div>
+                                    </div>
+                                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                                </div>
+                               
+                                <p class="post-text">Buggati.</p>
+                                <img src="images/buggatti1.jpg" class="post-image">
+                                <div class="post-row">
+                                    <div class="activity-icons">
+                                        <div><img src="images/like-blue.png">597k</div>
+                                        <div><img src="images/comments.png">76k</div>
+                                        <div><img src="images/share.png">35k</div>
+                                    </div>
+                                    <div class="post-profile-icon">
+                                        <img src="images/profile-pic.jpg">
+            
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="post-container">
+                                <div class="post-row">
+                                    <div class="user-profile">
+                                        <img src="images/profile-pic.jpg">
+                                        <div>
+                                            <p>Huz Aif</p>
+                                            <span>05 June 2022, 05:45pm</span>
+                                        </div>
+                                    </div>
+                                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                                </div>
+                               
+                                <p class="post-text">Paris.</p>
+                                <img src="images/paris.jpg" class="post-image">
+                                <div class="post-row">
+                                    <div class="activity-icons">
+                                        <div><img src="images/like-blue.png">167k</div>
+                                        <div><img src="images/comments.png">49k</div>
+                                        <div><img src="images/share.png">7k</div>
+                                    </div>
+                                    <div class="post-profile-icon">
+                                        <img src="images/profile-pic.jpg">
+            
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+             <p>Huzaif Ahmad-Copyright 2022</p>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
